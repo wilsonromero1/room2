@@ -1,0 +1,31 @@
+
+.x{
+	text-align: 10px;
+
+
+}
+#formulario{
+	color: black;
+	
+	}
+
+#up{
+	position:fixed;
+	z-index:2;
+	background: rgba(225, 225, 225, 0.3);
+	top: 0;
+  	left: 0;
+  	height: 100vh;
+  	width: 100vw;
+  	transition: all .5s;
+	/*type del selct*/
+	}
+
+#down{
+	position:fixed;
+	margin-top:  100px;
+	z-index:1;
+	width:200px;
+	 
+  	background-color:#e91f27;	
+}
