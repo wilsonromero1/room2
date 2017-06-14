@@ -1,7 +1,16 @@
 
-.xxxx{
-	text-align: 10px;
-
+.x{
+	
+	
+    background: red;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px;
+    float: right;
+    padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	
+    
 
 }
 #formulario{
@@ -23,8 +32,8 @@
 
 #down{
 	position:fixed;
-	margin-top:  100px;
 	z-index:1;
+	margin-top:  100px;
 	width:200px;
 	 
   	background-color:#e91f27;	
