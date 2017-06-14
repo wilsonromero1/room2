@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head charset="utf-8" />
-<link rel="stylesheet" type="text/css" href="css/css_over_index.css">
+<head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>over_index</title>
-
 </head>
+    
+    
 <body>
 
-<div id="up"><!--pagina de arriba-->
-	<div id="fade" class="x">
-	<a  href = "javascript:void(0)" 
+	<div id="fade" class="base"><!--base semitransparente-->
+	<a class="cerrar" href = "javascript:void(0)" 
 	onclick = "document.getElementById('formulario').style.display='none';document.getElementById('fade').style.display='none'">
-	<p>x</p></a>
+	X</a>
 	</div>
+    <!--fin base semitransparente-->
 
 	
+	<!--Modal-FORMULARIO-->
 
-	
-
-	
-
-	<!--FORMULARIO-->
-
-	<div id="formulario">
+	<div id="formulario" class="modal">
+        
 	<!-- imagen logo -->
 		<div class="logo"><img src="img/logo.png" height="43" width="236"></div>
 	<!-- bienvenido -->
@@ -42,7 +40,7 @@
 		<!--Select -->
 		<div id="select">
 		<form>
-		<select name"programa">
+		<select name="programa">
 		<option value="hola" selected="selected">Enero</option>
 		<option value="Febrero" selected="selected">Febrero</option>
 		<option value="Febrero" selected="selected">marzo</option>
@@ -115,7 +113,7 @@
 		Haciendo clic en Registrarse, estás indicando que has leído y que aceptas los
 		<a href="https://www.w3schools.com/html/"> 
 		Términos de servicio. y las políticas de privacidad
-		</div></a>
+		</a></div>
 	<!-- recibiras un email-->
 		<div class="recibir_email">Recibirás un mail de confirmación
 		</div>
@@ -125,30 +123,15 @@
 		</button>
 		</div>
 	</div>
-	
-	
 
-	
-	  
-	
-	  
-	
-	 
-	 
+	<!--fin Modal-FORMULARIO-->
 
-	
 
-</div><!--___________pagina de arriba-->
-
-<div class="box2" id="box"> <!-- falta --></div>
-<div class="all-box"> </div>
-<!-- LA pagina entera -->
-
+<!-- contenido página -->
 <div id="down">
-hola
+HOLA AQUI VA EL CONTENIDO DEL RESTO DE LA PAGINA
 </div>
-
-
-</style>
+   <!-- fin contenido página --> 
 </body>
+    
 </html>

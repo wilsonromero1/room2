@@ -1,0 +1,65 @@
+
+/*bottom cerrar*/
+a.cerrar{
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: red;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+	
+ 
+
+}
+/*todo el texto de la ventana */
+#formulario{
+	color: black;
+	
+	}
+
+#up{
+	position:fixed;
+	z-index:2;
+	background: rgba(225, 05, 0, 0.3);
+	top: 0;
+  	left: 0;
+  	height: 100vh;
+  	width: 100vw;
+  	transition: all .5s;
+	
+	}
+
+#down{
+	position:fixed;
+	margin-top:  100px;
+	width:99%;
+	 
+  	background-color:#e91f27;	
+}
+.base{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index:1001;
+		opacity:.75;
+        -moz-opacity: 0.75;
+        filter: alpha(opacity=75);
+    } 
+ .modal {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        padding: 16px;
+        background: #fff;
+		color: #333;
+        z-index:1002;
+        overflow: auto;
+    }
