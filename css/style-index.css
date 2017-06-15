@@ -1,5 +1,11 @@
-
 /*bottom cerrar*/
+/* NUEVO mouse over achicar*/
+a:hover.cerrar {
+    -webkit-transform: scale(0.8); 
+    -ms-transform: scale(0.8); 
+    transform: scale(0.8);
+     } 
+   
 a.cerrar{
    position: absolute;
    top:3px;
@@ -10,16 +16,16 @@ a.cerrar{
    text-decoration: none;
    line-height: 1;
    color:#fff;
-	
- 
+   transition: all 0.3s ease; /* NUEVO relativo al :hover*/
+   z-index: 3; /*para que */
 
 }
-/*todo el texto de la ventana */
+/*todo el texto de la ventana formulario */
 #formulario{
 	color: black;
 	
 	}
-
+/*ventana con la X y responsable del formulario*/
 #up{
 	position:fixed;
 	z-index:2;
@@ -28,10 +34,10 @@ a.cerrar{
   	left: 0;
   	height: 100vh;
   	width: 100vw;
-  	transition: all .5s;
+  	transition: all 1.5s;
 	
 	}
-
+/*pagina despues de formulario */
 #down{
 	position:fixed;
 	margin-top:  100px;
@@ -39,6 +45,7 @@ a.cerrar{
 	 
   	background-color:#e91f27;	
 }
+/*a*/
 .base{
         position: absolute;
         top: 0;
@@ -46,20 +53,47 @@ a.cerrar{
         width: 100%;
         height: 100%;
         background: #000;
-        z-index:1001;
+        z-index:1;
 		opacity:.75;
         -moz-opacity: 0.75;
         filter: alpha(opacity=75);
     } 
- .modal {
+/*posicion del formulario,tamano y color*/
+.modal {
         position: absolute;
-        top: 25%;
-        left: 25%;
-        width: 50%;
-        height: 50%;
+        top: 20%;
+        left: 35%;
+        width: 22%;
+        height: 440px;
         padding: 16px;
-        background: #fff;
+        background: grey;
 		color: #333;
-        z-index:1002;
+        z-index:2;
         overflow: auto;
-    }
+}
+/* Nuevo cambien el nombre del class por pro-type. Propiedad de bienevenido */
+#pro-type{
+      font-size: 66.53px;
+      color: red;
+   }
+
+/*nuevo*/
+img[src="img/logo.png"]
+  {
+    position: relative;
+    display:block;
+    margin:auto;
+    background: white;
+  }
+/*nuevo*/
+.logo {
+    background: white;
+   }
+/*nuevo*/
+div.avan
+      {
+      margin-top: 12px;
+      font-family:avan;
+      background: white;
+      text-align: center;
+}
