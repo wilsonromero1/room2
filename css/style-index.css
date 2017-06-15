@@ -71,12 +71,23 @@ a.cerrar{
         z-index:2;
         overflow: auto;
 }
-/* Nuevo cambien el nombre del class por pro-type. Propiedad de bienevenido */
+/* Nuevo Propiedad de bienevenido, cambien el nombre del class por pro-type. */
 #pro-type{
       font-size: 66.53px;
-      color: red;
+      font-weight: bold;
+      color: #e72127;
    }
 
+/*nuevo type avangarden*/
+div.avan
+      {
+      margin-top: 12px;
+      font-family:avan;
+      background: white;
+      text-align: center;
+}
+
+/*logo*/
 /*nuevo*/
 img[src="img/logo.png"]
   {
@@ -89,11 +100,3 @@ img[src="img/logo.png"]
 .logo {
     background: white;
    }
-/*nuevo*/
-div.avan
-      {
-      margin-top: 12px;
-      font-family:avan;
-      background: white;
-      text-align: center;
-}
