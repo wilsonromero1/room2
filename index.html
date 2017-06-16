@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style-index.css">
-<!-- Nuevo El icono-->
-<link rel="shortcut icon" href="logo_ico.ico"> 
+<!-- El icono-->
+<link rel="shortcut icon" href="img/logo_ico.ico"> 
 	<title>over_index</title>
 </head>
     
     
 <body>
-
+<!--bottom X-->
 	<div id="fade" class="base">
 	<!--base semitransparente-->
 	<a class="cerrar" href ="javascript:void(0)" 
@@ -18,13 +18,13 @@
 	X</a>
 	
 	</div>
-	<!-- Nuevo Las typografia -->
+	<!-- typografia -->
 	<style>
 		@font-face
 		{
  		font-family: 'avan';
  		src: url('type/avan.otf');
-	}
+        }
 	</style> 
     <!--fin base semitransparente-->
 
@@ -33,25 +33,24 @@
 
 <div id="formulario" class="modal">
         
-	<!-- imagen logo -->
-		<div class="logo"><img src="img/logo.png" height="43" width="236"></div>
-	<!-- bienvenido -->
-		<div class="avan" id="pro-type">Bienvenido</div>
-	<!-- Unase en forma gratuita -->
-		<div class="tex24" id="unase"> ¡Únase en forma gratuita!
+	<!-- imagen logo --><!-- bienvenido-nuevo-->
+		<div class="logo"><img src="img/logo.png" height="41" width="236"><div class="avan" id="pro-type">Bienvenido</div></div>
+	
+    <!-- Unase en forma gratuita -->
+    	<div class="tex24" id="unase"> ¡Únase en forma gratuita!
 		</div> 
-	<form action="">
+	<form class="form" action="" method="get">
 	<label for="Usuario">Usuario</label> <input type="pass" name="tusuario"><br>
 	<label for="Contraseña" >Contraseña</label> <input type="password" name="contraseña"><br>
 	<label for="Usuario">Repetir <br>Contraseña</label> <input type="password" name="tusuario"><br>
 	<label for="Email">Email</label> <input type="text" name="tusuario"><br>
 	<!--Fecha de nacimiento -->
-		<br>
+		
 		<div id="fecha" class="tex24">Fecha de nacimiento:</div>
-		<br />
+		
 		<!--Select -->
 		<div id="select">
-		<form>
+		
 		<select name="programa">
 		<option value="hola" selected="selected">Enero</option>
 		<option value="Febrero" selected="selected">Febrero</option>
@@ -111,29 +110,29 @@
 		<option value="hola" selected="selected">1930</option>
 
 		</select>
-		</form>
+		
 		</div>
 	<!-- check box -->
-		<div class="hm">
-		<form method="get" action="http://aprenderaprogramar.com/action.php">
-		<input type="radio" name="radio2" /> Hombre
-		<input type="radio" name="radio2" />Mujer
-		</form>
+		<div id="sex">
+	  	<input type="checkbox" name="radio2" /> Hombre
+		<input type="checkbox" name="radio2" />Mujer
 		</div>
+        
 	<!-- texto terminos-->
-		<div class="terminos"> 
+		<div id="terminos"> 
 		Haciendo clic en Registrarse, estás indicando que has leído y que aceptas los
 		<a href="https://www.w3schools.com/html/"> 
 		Términos de servicio. y las políticas de privacidad
 		</a></div>
 	<!-- recibiras un email-->
-		<div class="recibir_email">Recibirás un mail de confirmación
+		<div id="recibirmail">Recibirás un mail de confirmación
 		</div>
+        
 	<!--botton registrase-->
-		<div class="boton">
-		<button class="button">Registarte
-		</button>
+		<div id="boton">
+		<button id="button">Registarte</button>
 		</div>
+        </form>
 </div>
 
 	<!--fin Modal-FORMULARIO-->
@@ -141,6 +140,7 @@
 
 <!-- contenido página -->
 <div id="down">
+<div class="logo"><img src="img/logo_over.png" height="24" width="143">
 HOLA AQUI VA EL CONTENIDO DEL RESTO DE LA PAGINA
 </div>
    <!-- fin contenido página --> 
