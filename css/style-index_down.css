@@ -1,0 +1,101 @@
+.despegable{
+  position: fixed;
+}
+#menu-up{
+  position: relative;
+  margin: -8px -8px;
+  padding : 30px;
+  background-color:#e91f27; 
+}
+.tex-cabeza
+{ 
+  
+  font-family:verdana;
+  color: #ffffff; 
+  font-size: 14px;
+  
+}
+
+.center{
+  position: relative;
+   /* IMPORTANTE */
+  width: 1167px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+    position: absolute;
+    float: left;
+    top: auto;
+    width: 147px;
+    height: 26px;
+    margin: -15px;
+    padding : 0px;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+.inicio{
+  position: absolute;
+    float: left;
+    top: 0px;
+    left: 143px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+.sesion{
+    position: absolute;
+    float: right;
+    top: 0px;
+    left: 1008px;
+    width: 92px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+.search{
+  
+  
+    position: absolute;
+    float: left;
+    top: -5px; /*posicion de cordenadas */
+    left: 1110px;/*posicion de cordenadas */
+    
+    
+    border: 3px solid #73AD21;
+
+    
+     
+}
+
+
+/* nuevo el search */
+
+  input[type=search] {
+    position: fixed;
+      margin: 0px 400px 0px 0px;
+      width: 62px;
+      height: 24px;
+      box-sizing: border-box; /* ? */
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      background-color: white;
+      background-image: url("../img/lupa.png"); /*nuevo no funciona como los demas */
+      background-position: 8px 5px; /*posicion de la lupa */ 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px; /* pading dentro de el search */
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+}
+
+  input[type=search]:focus {
+      width: 15%;
+  }
+
+.probar {
+
+  
+}
