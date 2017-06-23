@@ -18,9 +18,9 @@ a.cerrar{
    color:#fff;
    transition: all 0.3s ease; /* relativo al :hover del buttom X  */
  }
-/*a relativo al boton cerrar*/
+/*a relativo al background*/
 .base{
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
