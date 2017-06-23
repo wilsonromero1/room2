@@ -1,9 +1,16 @@
 
+
+
 #menu-up{
-  position: relative;
-  margin: -8px -8px;
-  padding : 30px;
+  position: fixed;
+  top: 0px;
+  margin-left: -8px;
+  width: 100%; 
+  text-align:left;
+  padding : 25px; /* tamano del background */
   background-color:#e91f27; 
+
+
 }
 .tex-cabeza
 { 
@@ -15,11 +22,12 @@
 }
 
 .center{
-  position: relative;
+  position: relative; /*centra el menu */
    /* IMPORTANTE */
   width: 1167px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 12%;
+  
+
 }
 .logo{
     position: absolute;
@@ -64,8 +72,6 @@
     
     border: 3px solid #73AD21;
 
-    
-     
 }
 
 
