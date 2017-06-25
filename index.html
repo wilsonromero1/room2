@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style-index.css">
+<link rel="stylesheet" type="text/css" href="css/style-index1.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style-index_down.css">
 <link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 900px)">
@@ -13,19 +13,7 @@
     
     
 <body>
-
-	<div id="fade" class="base">
-	<!--base semitransparente-->
-	<a class="cerrar" href ="javascript:void(0)" 
-	onclick = "document.getElementById('formulario').style.display='none';document.getElementById('fade').style.display='none'">
-	X</a>
-        
-	<!-- imagen logo --><!-- bienvenido-nuevo-->
-        <img src="img/logo.png" height="43" width="238">
-        <div class="avan" id="pro-type">Bienvenido</div>
-	</div>
   
-   
 	<!-- Nuevo Las typografia -->
 	<style>
 		@font-face
@@ -34,18 +22,29 @@
  		src: url('type/avan.otf');
         }
 	</style> 
-    <!--fin base semitransparente-->
+   
 
 	
-	<!--Modal-FORMULARIO-->
+	<!--Modal-->
 
-<div id="formulario">
-        
-	    <!-- Unase en forma gratuita-->
-      <!-- nuevo-->
-    	<div  id="unase"> ¡Únase en forma gratuita!
-		</div> 
-	<form class="form" action="" method="get">
+<div id="mimodal" class="modal">
+      <a class="cerrar" href ="javascript:void(0)" 
+	onclick = "document.getElementById('mimodal').style.display='none';document.getElementById('fade').style.display='none'">
+	X</a>  
+	    
+      <!-- nuevo contenido modal-->
+ <div class="contenido-modal">
+    <!-- nuevo logo-->
+    <div class="modal-logo">
+        <img src="img/logo.png" height="43" width="238">
+         <div class="avan" id="pro-type">Bienvenido</div>
+        </div>
+     
+<div class="modal-body">
+    
+        <span  id="unase"> ¡Únase en forma gratuita!
+		</span>
+    <form class="form" action="" method="get">
 	 <label for="usuario" ></label> <input placeholder="Escribe tu Usuario"style="width:265px;height:20px;" type="password" name="contraseña">
 	<label for="Contraseña" ></label> <input placeholder="Escribe tu Contraseña" style="width:265px;height:20px;" type="password" name="contraseña">
 	<label for="Usuario"></label> <input placeholder="Confirma tu Contraseña" style="width:265px;height:20px;" type="password" name="tusuario">
@@ -138,9 +137,14 @@
 		<button id="button">Registarte</button>
 		</div>
         </form>
+   
+</div> 
+    	
+	
+ </div>
 </div>
 
-	<!--fin Modal-FORMULARIO-->
+	<!--fin Modal-->
 
 
 
@@ -161,7 +165,7 @@
 	</div> <!-- final logo -->
 	</div><!--center-->
 </div> <!-- down final -->
-	</div>
+	
 	<H1><p class="probar"><div id="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,<br>
 
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</div></H1>
