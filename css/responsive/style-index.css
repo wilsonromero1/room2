@@ -9,40 +9,13 @@
 .modal-body {
    /*nuevo */
     height: 340px;
+
    
    
 }
 #button/*nuevo */
 {display:block; 
        
-        padding: 10px 24px;
+        padding: 0px 0px;
 }
-    img[src="img/logo.png"]{/*nuevo */
-        height: 33px;
-        width: 208px;
-    }
-    #pro-type{/*nuevo */
-        font-size: 50.43px;
-    }
-    #unase{/*nuevo */
-        left: 6px;
-        font-size: 17px;
-    }
-    .contenido-modal{
-        width: 290px;
-    }
-.input{/*nuevo */
-   margin-top:5px; 
-   width: 227px;
-    height: 15px;
-}
-    #fecha{/*nuevo */
-        font-size: 17px;
-    }
-    #recibirmail{/*nuevo */
-        font-size: 13px;
-    }
-    #button{/*nuevo */
-        font-size: 12px;
-        padding: 2px 28px;
-    }
+    

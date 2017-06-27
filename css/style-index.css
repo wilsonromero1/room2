@@ -109,7 +109,15 @@ div.avan
 
 #terminos{ margin-top:10px; }
 #recibirmail{margin-top:10px;font-size: 15px;text-align: center;}
-#button{display:block; margin:auto; background-color: red;color:white;border:none;font-size: 15px;cursor:pointer;padding: 10px 24px;border-radius: 5px 5px 5px 5px;}
+#button{display:block; 
+  margin:auto; 
+  background-color: 
+  red;color:white;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  padding: 10px 24px;
+  border-radius: 5px 5px 5px 5px;}
 #boton{margin-top:10px;
  }
 
