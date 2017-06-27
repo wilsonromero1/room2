@@ -2,6 +2,14 @@ body {
 	color:red;
 }
 
+
+
+@media screen and (max-width: 500px)
+{
+	body {
+	color: green;
+	}	
+}
 @media screen and (max-width: 500px)
 {
 	body {
