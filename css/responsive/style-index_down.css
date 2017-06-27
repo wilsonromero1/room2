@@ -1,18 +1,19 @@
 body {
-	color:black;
+	color:red;
 }
 
 
 
 @media screen and (max-width: 500px)
-{ 
+{
 	body {
 	color: green;
 	}	
 }
-@media (max-width:900px) and (min-width:501px) {
-    body {
-        background: silver;
-    }
+@media screen and (max-width: 500px)
+{
+	body {
+	color: green;
+	}	
 }
 
