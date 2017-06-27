@@ -5,11 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style-index_down.css">
-<!-- nuevo trabajando con reponsive formulario--> 
-<link rel="stylesheet" type="text/css" href="css/responsive/style-index.css" media="screen and (max-width: 900px)">
-<!-- nuevo trabajando con reponsive formulario en pagian Down--> 
-
-<link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 2000px)">
+<link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 900px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive/style-index.css" media="screen and (max-width: 900px)">
 <!-- Nuevo El icono-->
 <link rel="shortcut icon" href="logo_ico.ico"> 
 	<title>over_index</title>
@@ -27,10 +24,6 @@
         }
 	</style> 
    
-
-	
-	
-
 <div id="mimodal" class="modal"><!--nuevo Modal general-transparencia-->
       <a class="cerrar" href ="javascript:void(0)" 
 	onclick = "document.getElementById('mimodal').style.display='none';document.getElementById('fade').style.display='none'">
@@ -48,11 +41,12 @@
     
         <span  id="unase"> ¡Únase en forma gratuita!
 		</span>
+    <!-- aqui elimine el estilo del input y lo mande al css-coloque la clase input-->
     <form class="form" action="" method="get">
-	 <label for="usuario" ></label> <input placeholder="Escribe tu Usuario"style="width:265px;height:20px;" type="text" name="contraseña">
-	<label for="Contraseña" ></label> <input placeholder="Escribe tu Contraseña" style="width:265px;height:20px;" type="password" name="contraseña">
-	<label for="Usuario"></label> <input placeholder="Confirma tu Contraseña" style="width:265px;height:20px;" type="password" name="tusuario">
-	<label for="Email"></label> <input placeholder="Escribe tu Correo Electronico" style="width:265px;height:20px;" type="text" name="tusuario"><br>
+	 <label for="usuario" ></label> <input class="input" placeholder="Escribe tu Usuario" type="password" name="contraseña">
+	<label for="Contraseña" ></label> <input class="input" placeholder="Escribe tu Contraseña"  type="password" name="contraseña">
+	<label for="Usuario"></label> <input class="input" placeholder="Confirma tu Contraseña"  type="password" name="tusuario">
+	<label for="Email"></label> <input class="input" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario"><br>
 	 <!-- termina nuevo-->
         <!--Fecha de nacimiento -->
 		
