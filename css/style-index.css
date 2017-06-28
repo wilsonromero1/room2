@@ -1,3 +1,21 @@
+
+/*propiedades del modal general -nuevo*/
+.modal{
+    transition: all 1.5s;
+    position: fixed; /* scroll */
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /*trnasparencia full ancho */
+    height: 100%; /* transparencia full alto */
+    overflow: auto; 
+    background-color: rgba(255, 255, 255, 0.8); /* opacidad blanca */
+    -webkit-animation-name: prueba; 
+    -webkit-animation-duration: 3s; 
+    animation-name: prueba;
+    animation-duration: 3s; 
+}
 /*bottom cerrar*/
 /* mouse over achicar*/
 a:hover.cerrar {
@@ -7,7 +25,7 @@ a:hover.cerrar {
      } 
    
 a.cerrar{
-    border-radius: 8px 8px 8px 8px;
+   border-radius: 8px 8px 8px 8px;
    position: absolute;
    top:3px;
    right:3px;
@@ -23,7 +41,7 @@ a.cerrar{
 
 /*logo*/
 img[src="img/logo.png"]
-  {
+    {
     position: relative;
     display:block; 
     margin:auto;
@@ -32,7 +50,7 @@ img[src="img/logo.png"]
     -webkit-transition: margin 1.2s linear; 
     -ms-transition: margin 1.2s linear; 
     -moz-transition: margin 1.2s linear;
-         } 
+     } 
 
 @keyframes prueba {
     from {opacity: .001;}
@@ -55,23 +73,7 @@ div.avan
       color: #e72127;
         
    }
-/*propiedades del modal general -nuevo*/
-.modal{
-        transition: all 1.5s;
-    position: fixed; /* scroll */
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%; /*trnasparencia full ancho */
-    height: 100%; /* transparencia full alto */
-    overflow: auto; 
-    background-color: rgba(255, 255, 255, 0.8); /* opacidad blanca */
-    -webkit-animation-name: prueba; 
-      -webkit-animation-duration: 3s; 
-      animation-name: prueba;
-      animation-duration: 3s; 
-}
+
 /*propiedades del modal-pop-up -nuevo*/
 .contenido-modal{
     position: relative;

@@ -2,20 +2,7 @@
 @media screen and (max-width: 500px)
 {
 	.modal{
-  
-    padding-top: 20px;
-   
-}
-.modal-body {
-   /*nuevo */
-    height: 340px;
-
-   
-   
-}
-#button/*nuevo */
-{display:block; 
-       
-        padding: 0px 0px;
-}
+    padding-top: 50px;
+    }
     
+}
