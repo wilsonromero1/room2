@@ -1,12 +1,18 @@
 
 @media screen and (max-width: 500px)
 {
-	.modal{
+	.modal
+    {
     padding-top: 50px;
     }
-    .form{  
-            font-size: 12px;
-            
-            margin-top: 8px;
-        }
+    .form
+    {  
+    font-size: 12px;
+    margin-top: 8px;
+    }
+    .modal-body 
+    {
+    position: relative;
+    top: 200px;
+    }
 }

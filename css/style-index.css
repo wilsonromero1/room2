@@ -73,19 +73,20 @@ div.avan
       color: #e72127;
       }
 
-/*propiedades del modal-pop-up -nuevo*/
+/*propiedades del modal-pop-up */
 .contenido-modal{
     position: relative;
-   background-color: transparent;
+   
     margin: auto;
     padding: 0;
-    width: 327px;
+    width: 327px; /*ancha el pop up gris*/
 }
-/*propiedades del formulario -nuevo*/
+/*propiedades del formulario*/
 .modal-body {
+    
     padding: 2px 16px;
     background-color: grey;
-    height: 400px;
+    height: 400px; /*ancha el formulario */
     border-radius: 8px 8px 8px 8px;
 }
 
