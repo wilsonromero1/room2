@@ -1,19 +1,130 @@
-body {
-	color:red;
-}
-
-
-
-@media screen and (max-width: 500px)
+@media screen and (min-width:1920px) and (max-width:7680px)/*ancho fijo pantalla grande*/
 {
-	body {
-	color: green;
-	}	
-}
-@media screen and (max-width: 500px)
-{
-	body {
-	color: green;
-	}	
+    body {
+        color:red;
+        background-color:chartreuse;
 }
 
+}
+@media screen and (min-width:1280px) and (max-width:1920px)/*ancho fijo portatil*/
+{
+    body {
+        color:red;
+        background-color:deepskyblue;
+}
+    a.cerrar{
+        background-color:brown;
+}
+}
+@media screen and (min-width:800px) and (max-width:1280px)/*ancho fijo pc de mesa*/
+{
+    body {
+        color:red;
+        background-color:blueviolet;
+}
+    a.cerrar{
+        background-color: blue;
+}
+}
+@media screen and (min-width:480px) and (max-width:800px)/*ancho fijo tablet*/
+{
+    body {
+        color: green;
+        background-color: aqua;
+	}
+    a.cerrar{
+        background-color: green;
+    }
+    }
+@media screen and (min-width:240px) and (max-width:480px)/*ancho fijo celular*/
+{
+    body {
+        color: green;
+        background-color:crimson;
+        }
+    
+    a.cerrar{
+        padding:0px 6px;;
+        font-size: 25px;
+        font-weight: 900;
+        font-family:avan;
+        border-radius: 3px 3px 3px 3px;
+    }
+    img[src="img/logo.png"]{
+        height: 38px;
+        width: 228px;
+        position: relative;
+        display:block; 
+        margin:auto;
+        
+    }
+    
+    #pro-type{
+        font-size: 40.53px;
+        font-weight: bold;
+        color: #e72127;
+      } 
+    div.avan
+      {
+        font-family:avan;   
+        text-align: center;
+        margin-bottom: 14px;
+                  }
+    .contenido-modal{
+        width: 240px;
+        position: relative;
+        margin: auto;
+        padding: 0;
+    
+    }
+    #unase{
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+        left: 4px;
+        }
+    .modal-body{
+        padding: 0px 0px;
+        background-color: grey;
+        height: 388px; /*ancha el formulario */
+        border-radius: 0px 0px 0px 0px;
+    }
+    .caja{
+        margin-top:6px;
+        width:212px;
+        height:30px;
+    }
+    #fecha{
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 500;
+        margin-bottom: 3px;
+        margin-top: 2px;
+    }
+    input[type=radio]{
+        width   : 20px;
+        height: 20px;
+          
+        
+    }
+    #terminos{
+        text-align: justify;
+        font-size: 10px;
+        margin-right: 15px;
+        border: 2px;
+    }
+    #button{
+        font-size: 22px;
+        padding: 2px 30px;
+        border-radius: 0px 0px 0px 0px;
+        margin-left: 28px;
+        background-color: red;
+            }
+
+    }
+    #recibirmail{
+        font-size: 12px;
+        font-weight: 550;
+        margin-right: 15px;;
+            }
+    }
