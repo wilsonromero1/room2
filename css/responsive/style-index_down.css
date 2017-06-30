@@ -44,11 +44,11 @@
         }
     
     a.cerrar{
-        padding:0px 6px;;
-        font-size: 25px;
+        padding: 5px 9px;
+        font-size: 20px;
         font-weight: 900;
         font-family:avan;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 4px 4px 4px 4px;
     }
     img[src="img/logo.png"]{
         height: 38px;
@@ -114,9 +114,9 @@
         border: 2px;
     }
     #button{
-        font-size: 22px;
-        padding: 2px 30px;
-        border-radius: 0px 0px 0px 0px;
+        font-size: 20px;
+        padding: 2px 25px;
+        border-radius: 4px 4px 4px 4px;
         margin-left: 28px;
         background-color: red;
             }
