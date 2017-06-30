@@ -84,7 +84,7 @@
         left: 50px; /*posocionamiento del texto unase */
         }
     .modal-body{
-        padding: 0px 0px;
+        padding: 10px 0px;
         background-color: grey;
         height: 400px; /*ancha el altura */
         border-radius: 4px 4px 4px 4px;
