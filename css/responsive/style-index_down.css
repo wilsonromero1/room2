@@ -86,8 +86,8 @@
     .modal-body{
         padding: 0px 0px;
         background-color: grey;
-        height: 388px; /*ancha el formulario */
-        border-radius: 0px 0px 0px 0px;
+        height: 400px; /*ancha el formulario */
+        border-radius: 4px 4px 4px 4px;
     }
     .caja{
         margin-top:6px;
