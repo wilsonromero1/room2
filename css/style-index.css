@@ -76,18 +76,20 @@ div.avan
 /*propiedades del modal-pop-up */
 .contenido-modal{
     position: relative;
-   
     margin: auto;
     padding: 0;
     width: 327px; /*ancha el pop up gris*/
 }
 /*propiedades del formulario*/
 .modal-body {
-    
     padding: 2px 16px;
     background-color: grey;
     height: 400px; /*ancha el formulario */
     border-radius: 8px 8px 8px 8px;
+    font-family:verdana;
+    color: white;
+    font-size: 12px;
+    
 }
 
 /*texto del formulario unase en el pricipio del formulario */
@@ -104,8 +106,6 @@ div.avan
 
 @font-face
 {font-family: 'verdana'; src: url('type/verdana.ttf');}
-
-.form{font-family:verdana; margin-left: 13px; color: white;font-size: 12px; margin-top: 8px;}
 
 #fecha{ font-size: 20px; margin-top:10px; }
 
@@ -127,8 +127,8 @@ div.avan
 .caja
 {
    margin-top:10px;
-    width:265px;
-    height:20px;
+    width:290px;
+    height:25px;
     
 }
 
