@@ -125,4 +125,17 @@
         
         
     }
+    .inisesion{
+        border-radius: 8px 8px 8px 8px;
+        position: absolute;
+        top:3px;
+        right:38px;
+        background-color: red;
+        padding:1px 0px;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 1;
+        color:#fff;
+        transition: all 0.3s ease;
+    }
        }
