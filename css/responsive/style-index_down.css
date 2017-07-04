@@ -1,11 +1,19 @@
 @media screen and (min-width:1920px) and (max-width:7680px)/*ancho fijo pantalla grande*/
+<<<<<<< HEAD
 {body {
 	color:red;
     background-color:chartreuse;
+=======
+{
+    body {
+        color:red;
+        background-color:chartreuse;
+>>>>>>> 1ff0ea0959e1678c7f4973020ada9f81b07fcde2
 }
 
 }
 @media screen and (min-width:1280px) and (max-width:1920px)/*ancho fijo portatil*/
+<<<<<<< HEAD
 {body {
 	color:red;
     background-color:deepskyblue;
@@ -33,3 +41,126 @@
 	body {
 	color: green;
         background-color:crimson;
+=======
+{
+    body {
+        color:red;
+        background-color:deepskyblue;
+}
+    a.cerrar{
+        background-color:brown;
+}
+}
+@media screen and (min-width:800px) and (max-width:1280px)/*ancho fijo pc de mesa*/
+{
+    body {
+        color:red;
+        background-color:blueviolet;
+}
+    a.cerrar{
+        background-color: blue;
+}
+}
+@media screen and (min-width:480px) and (max-width:800px)/*ancho fijo tablet*/
+{
+    body {
+        color: green;
+        background-color: aqua;
+	}
+    a.cerrar{
+        background-color: green;
+    }
+    }
+@media screen and (min-width:240px) and (max-width:480px)/*ancho fijo celular*/
+{
+    body {
+        color: green;
+        background-color:crimson;
+        }
+    
+    a.cerrar{
+        padding: 5px 9px;
+        font-size: 20px;
+        font-weight: 900;
+        font-family:avan;
+        border-radius: 4px 4px 4px 4px;
+    }
+    img[src="img/logo.png"]{
+        height: 38px;
+        width: 228px;
+        position: relative;
+        display:block; 
+        margin:auto;
+        
+        }
+    
+    #pro-type{
+        font-size: 40.53px;
+        font-weight: bold;
+        color: #e72127;
+        } 
+    div.avan
+      {
+        font-family:avan;   
+        text-align: center;
+        margin-bottom: 14px;
+        }
+    .contenido-modal{
+        width: 340px; /*ancho del formulario */
+        position: relative;
+        margin: auto;
+        padding: 0;
+    
+    }
+    #unase{
+        position: relative;
+        text-align: center;
+        font-size: 16px;
+        left: 50px; /*posocionamiento del texto unase */
+        }
+    .modal-body{
+        padding: 10px 0px;
+        background-color: grey;
+        height: 400px; /*ancha el altura */
+        border-radius: 4px 4px 4px 4px;
+        }
+    .caja{ /* espacios entre select */
+        margin-top:6px;
+        width:312px; /*largo de los select*/
+        height:30px;
+        }
+    #fecha{
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 500;
+        margin-bottom: 3px;
+        margin-top: 2px;
+        }
+    input[type=radio]{
+        width   : 20px;
+        height: 20px;
+        }
+    #terminos{
+        text-align: justify;
+        font-size: 10px;
+        margin-right: 15px;
+        border: 2px;
+        }
+    
+    #recibirmail{
+        font-size: 12px;
+        font-weight: 550;
+        margin-right: 15px;;
+            }
+    }
+    #button{
+        font-size: 20px;
+        padding: 2px 25px;
+        border-radius: 4px 4px 4px 4px;
+        margin-left: 28px;
+        background-color: red;
+            }
+
+    }
+    
+>>>>>>> 1ff0ea0959e1678c7f4973020ada9f81b07fcde2
