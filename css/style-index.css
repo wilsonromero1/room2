@@ -98,9 +98,9 @@ div.avan
     position: relative;
     color:white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20.3px;
     font-family:verdana;
-    margin-right: 10px;/**/
+    margin-right: 0px;/**/
 }
 
 
@@ -112,16 +112,17 @@ div.avan
 #terminos{ margin-top:10px; }
 #recibirmail{margin-top:10px;font-size: 15px;text-align: center;}
 #button{display:block; 
-  margin:auto; 
-  background-color: 
-  red;color:white;
-  border:none;
-  font-size: 15px;
-  cursor:pointer;
-  padding: 10px 24px;
-  border-radius: 5px 5px 5px 5px;}
-#boton{margin-top:10px;
- }
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:10px;;
+    background-color:red;
+    color:white;
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    padding: 10px 24px;
+    border-radius: 5px 5px 5px 5px;}
 
 /*nuevo-medidas input del formulario */
 .caja

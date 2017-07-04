@@ -5,13 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style-index_down.css">
-<<<<<<< HEAD
-<link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 7680px)">
-    <link rel="stylesheet" type="text/css" href="css/responsive/style-index.css" media="screen and (max-width: 7680px)">
-=======
 <link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 1920px)">
     <link rel="stylesheet" type="text/css" href="css/responsive/style-index.css" media="screen and (max-width: 1920px)">
->>>>>>> 1ff0ea0959e1678c7f4973020ada9f81b07fcde2
 <!-- Nuevo El icono-->
 <link rel="shortcut icon" href="logo_ico.ico"> 
 	<title>over_index</title>
@@ -29,7 +24,7 @@
         }
 	</style> 
    
-<div id="mimodal" class="modal"><!--nuevo Modal general-transparencia-->
+<div id="mimodal"class="modal"><!--mi Modal general-transparencia-->
       <a class="cerrar" href ="javascript:void(0)" 
 	onclick = "document.getElementById('mimodal').style.display='none';document.getElementById('fade').style.display='none'">
 	X</a>  
@@ -44,91 +39,84 @@
      
 <div class="modal-body"><!--  contenido modal-contenido del formulario-->
     
-        <span  id="unase"> ¡Únase en forma gratuita!
-		</span>
+        <div  id="unase"> ¡Únase en forma gratuita!
+		</div>
     <!-- aqui elimine el estilo del input y lo mande al css-coloque la clase input-->
     <form class="form" action="" method="get">
 	 <input class="caja" placeholder="Escribe tu Usuario" type="text" name="contraseña">
 	 <input class="caja" placeholder="Escribe tu Contraseña"  type="password" name="contraseña">
 	 <input class="caja" placeholder="Confirma tu Contraseña"  type="password" name="tusuario">
-	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario"><br>
-	 <!-- termina nuevo-->
+	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario">
         <!--Fecha de nacimiento -->
 		
-		<div id="fecha" class="tex24">Fecha de nacimiento:</div>
+        <div id="fecha" class="tex24"><a>Fecha de nacimiento:</a></div><!--nuevo -->
 		
 		<!--Select -->
-		<div id="select">
-		
-		<select name="programa">
-		<option value="hola" selected="selected">Enero</option>
+        
+		<select class="select" onchange="this.style.width=200">
+		<option value="Enero" selected="selected">Enero</option>
 		<option value="Febrero" selected="selected">Febrero</option>
-		<option value="Febrero" selected="selected">marzo</option>
-		<option value="Febrero" selected="selected">Abril</option>
-		<option value="Febrero" selected="selected">Mayo</option>
-		<option value="Febrero" selected="selected">Junio</option>
-		<option value="Febrero" selected="selected">Julio</option>
-		<option value="Febrero" selected="selected">Agosto</option>
-		<option value="Febrero" selected="selected">Septiembre</option>
-		<option value="Febrero" selected="selected">Octubre</option>
-		<option value="Febrero" selected="selected">Noviembre</option>
-		<option value="Febrero" selected="selected">Diciembre</option>
-		<option value="Febrero" selected="selected">mes</option>
+		<option value="marzo" selected="selected">marzo</option>
+		<option value="Abril" selected="selected">Abril</option>
+		<option value="Mayo" selected="selected">Mayo</option>
+		<option value="Junio" selected="selected">Junio</option>
+		<option value="Junio" selected="selected">Julio</option>
+		<option value="Agosto" selected="selected">Agosto</option>
+		<option value="Septiembre" selected="selected">Septiembre</option>
+		<option value="Octubre" selected="selected">Octubre</option>
+		<option value="Noviembre" selected="selected">Noviembre</option>
+		<option value="Diciembre" selected="selected">Diciembre</option>
+		<option value="Febrero" selected="selected">Mes</option>
 		</select>
 
 	<!-- DIa -->
 
-		<select size="7">
-		<option value="hola" selected="selected">1</option>
-		<option value="hola" selected="selected">2</option>
-		<option value="hola" selected="selected">3</option>
-		<option value="hola" selected="selected">4</option>
-		<option value="hola" selected="selected">5</option>
-		<option value="hola" selected="selected">6</option>
-		<option value="hola" selected="selected">7</option>
-		<option value="hola" selected="selected">8</option>
-		<option value="hola" selected="selected">9</option>
-		<option value="hola" selected="selected">10</option>
-		<option value="hola" selected="selected">11</option>
-		<option value="hola" selected="selected">12</option>
-		<option value="hola" selected="selected">13</option>
-		<option value="hola" selected="selected">14</option>
-		<option value="hola" selected="selected">15</option>
-		<option value="hola" selected="selected">16</option>
-		<option value="hola" selected="selected">17</option>
-		<option value="hola" selected="selected">18</option>
-		<option value="hola" selected="selected">19</option>
-		<option value="hola" selected="selected">20</option>
-		<option value="hola" selected="selected">30</option>
-		<option value="hola" selected="selected">31</option>
+		<select class="select" onchange="this.style.width=200">
+		<option value="1" selected="selected">1</option>
+		<option value="2" selected="selected">2</option>
+		<option value="3" selected="selected">3</option>
+		<option value="4" selected="selected">4</option>
+		<option value="5" selected="selected">5</option>
+		<option value="5" selected="selected">6</option>
+		<option value="6" selected="selected">7</option>
+		<option value="7" selected="selected">8</option>
+		<option value="8" selected="selected">9</option>
+		<option value="9" selected="selected">10</option>
+		<option value="10" selected="selected">11</option>
+		<option value="11" selected="selected">12</option>
+		<option value="13" selected="selected">13</option>
+		<option value="14" selected="selected">14</option>
+		<option value="15" selected="selected">15</option>
+		<option value="16" selected="selected">16</option>
+		<option value="17" selected="selected">17</option>
+		<option value="18" selected="selected">18</option>
+		<option value="19" selected="selected">19</option>
+		<option value="20" selected="selected">20</option>
+		<option value="30" selected="selected">30</option>
+		<option value="31" selected="selected">31</option>
 		<option value="hola" selected="selected">Dia</option>
 
 		</select>
 
-		<select>
-		<option value="hola" selected="selected">1920</option>
-		<option value="hola" selected="selected">1921</option>
-		<option value="hola" selected="selected">1922</option>
-		<option value="hola" selected="selected">1923</option>
-		<option value="hola" selected="selected">1924</option>
-		<option value="hola" selected="selected">1925</option>
-		<option value="hola" selected="selected">1926</option>
-		<option value="hola" selected="selected">1927</option>
-		<option value="hola" selected="selected">1928</option>
-		<option value="hola" selected="selected">1999</option>
-		<option value="hola" selected="selected">1930</option>
+		<select class="select" onchange="this.style.width=200">
+		<option value="1920" selected="selected">1920</option>
+		<option value="1921" selected="selected">1921</option>
+		<option value="1922" selected="selected">1922</option>
+		<option value="1923" selected="selected">1923</option>
+		<option value="1924" selected="selected">1924</option>
+		<option value="1925" selected="selected">1925</option>
+		<option value="1926" selected="selected">1926</option>
+		<option value="1927" selected="selected">1927</option>
+		<option value="1928" selected="selected">1928</option>
+		<option value="1999" selected="selected">1999</option>
+		<option value="1930" selected="selected">1930</option>
+        <option value="hola" selected="selected">Año</option>
 
 		</select>
-		
-		</div>
+        <br>
 	<!-- check box -->
-<<<<<<< HEAD
-		<input type="radio" name="hombre" /> Hombre <!-- resolver boxchechek, no se seleciona uno y luego otro-->
-		<input type="radio" name="mujer" />Mujer
-=======
-		<input class="check" type="radio" name="radio2" /> <label>Hombre</label> <!-- resolver boxchechek, no se seleciona uno y luego otro-->
-		<input class="check" type="radio" name="radio2" /><labe>Mujer</labe>
->>>>>>> 1ff0ea0959e1678c7f4973020ada9f81b07fcde2
+		<input class="check" type="radio" name="radio2" /> <label class="sex">Masculino</label> <!-- resolver boxchechek, no se seleciona uno y luego otro-->
+		<input class="check" type="radio" name="radio2" /><labe class="sex">Femenino</labe>
 		        
 	<!-- texto terminos-->
 		<div id="terminos"> 
@@ -153,8 +141,6 @@
 </div>
 
 	<!--fin Modal-->
-
-
 
 
 <!-- contenido página Down -->
