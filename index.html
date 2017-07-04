@@ -5,8 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css/style-index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style-index_down.css">
-<link rel="stylesheet" type="text/css" href="css/responsive/style-index_down.css" media="screen and (max-width: 1920px)">
-    <link rel="stylesheet" type="text/css" href="css/responsive/style-index.css" media="screen and (max-width: 1920px)">
+<link rel="stylesheet" type="text/css" href="css/responsive/r-style-index_down.css" media="screen and (max-width: 1920px)">
+    <link rel="stylesheet" type="text/css" href="css/responsive/r-style-index.css" media="screen and (max-width: 1920px)">
 <!-- Nuevo El icono-->
 <link rel="shortcut icon" href="logo_ico.ico"> 
 	<title>over_index</title>
@@ -24,13 +24,16 @@
         }
 	</style> 
    
-<div id="mimodal"class="modal"><!--mi Modal general-transparencia-->
+<div id="mimodal" class="modal">
+<!-- id=mimodal propiedad con el java para cerrar -->
+<!-- modal propiedad  -->
       <a class="cerrar" href ="javascript:void(0)" 
 	onclick = "document.getElementById('mimodal').style.display='none';document.getElementById('fade').style.display='none'">
 	X</a>  
 	    
       
- <div class="contenido-modal"><!--  contenido modal que contiene a la vez el logo y el fomrulario-->
+ <div class="contenido-modal">
+ <!--  contenido modal que contiene a la vez el logo y el fomrulario-->
    
     <div class="modal-logo"><!-- nuevo modal div para el logo y el bienvenido -->
         <img src="img/logo.png" height="43" width="238">
@@ -39,21 +42,23 @@
      
 <div class="modal-body"><!--  contenido modal-contenido del formulario-->
     
-        <div  id="unase"> ¡Únase en forma gratuita!
-		</div>
+        <span  id="unase"> ¡Únase en forma gratuita!
+		</span>
     <!-- aqui elimine el estilo del input y lo mande al css-coloque la clase input-->
     <form class="form" action="" method="get">
 	 <input class="caja" placeholder="Escribe tu Usuario" type="text" name="contraseña">
 	 <input class="caja" placeholder="Escribe tu Contraseña"  type="password" name="contraseña">
 	 <input class="caja" placeholder="Confirma tu Contraseña"  type="password" name="tusuario">
-	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario">
+	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario"><br>
+	 <!-- termina nuevo-->
         <!--Fecha de nacimiento -->
 		
-        <div id="fecha" class="tex24"><a>Fecha de nacimiento:</a></div><!--nuevo -->
+		<div id="fecha" class="tex24">Fecha de nacimiento:</div>
 		
 		<!--Select -->
-        
-		<select class="select" onchange="this.style.width=200">
+		<div id="select">
+		
+		<select name="programa">
 		<option value="Enero" selected="selected">Enero</option>
 		<option value="Febrero" selected="selected">Febrero</option>
 		<option value="marzo" selected="selected">marzo</option>
@@ -66,12 +71,12 @@
 		<option value="Octubre" selected="selected">Octubre</option>
 		<option value="Noviembre" selected="selected">Noviembre</option>
 		<option value="Diciembre" selected="selected">Diciembre</option>
-		<option value="Febrero" selected="selected">Mes</option>
+		<option value="mes" selected="selected">mes</option>
 		</select>
 
 	<!-- DIa -->
 
-		<select class="select" onchange="this.style.width=200">
+		<select>
 		<option value="1" selected="selected">1</option>
 		<option value="2" selected="selected">2</option>
 		<option value="3" selected="selected">3</option>
@@ -98,7 +103,7 @@
 
 		</select>
 
-		<select class="select" onchange="this.style.width=200">
+		<select>
 		<option value="1920" selected="selected">1920</option>
 		<option value="1921" selected="selected">1921</option>
 		<option value="1922" selected="selected">1922</option>
@@ -110,13 +115,13 @@
 		<option value="1928" selected="selected">1928</option>
 		<option value="1999" selected="selected">1999</option>
 		<option value="1930" selected="selected">1930</option>
-        <option value="hola" selected="selected">Año</option>
 
 		</select>
-        <br>
+		
+		</div>
 	<!-- check box -->
-		<input class="check" type="radio" name="radio2" /> <label class="sex">Masculino</label> <!-- resolver boxchechek, no se seleciona uno y luego otro-->
-		<input class="check" type="radio" name="radio2" /><labe class="sex">Femenino</labe>
+		<input class="check" type="radio" name="radio2" /> <label>Hombre</label> <!-- resolver boxchechek, no se seleciona uno y luego otro-->
+		<input class="check" type="radio" name="radio2" /><labe>Mujer</labe>
 		        
 	<!-- texto terminos-->
 		<div id="terminos"> 
@@ -129,8 +134,8 @@
 		</div>
         
 	<!--botton registrase-->
-		<div id="boton">
-		<button id="button">Registarte</button>
+		<div id="boton"> <!-- demas -->
+		<button id="button">Registrate</button>
 		</div>
         </form>
    
@@ -141,6 +146,8 @@
 </div>
 
 	<!--fin Modal-->
+
+
 
 
 <!-- contenido página Down -->
