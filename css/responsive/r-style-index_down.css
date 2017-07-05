@@ -12,9 +12,7 @@
         color:red;
         background-color:deepskyblue;
 }
-    a.cerrar{
-        background-color:brown;
-}
+    
 }
 @media screen and (min-width:800px) and (max-width:1280px)/*ancho fijo pc de mesa*/
 {
@@ -22,20 +20,14 @@
         color:red;
         background-color:blueviolet;
 }
-    a.cerrar{
-        background-color: blue;
-}
-}
+  }
 @media screen and (min-width:480px) and (max-width:800px)/*ancho fijo tablet*/
 {
     body {
         color: green;
         background-color: aqua;
 	}
-    a.cerrar{
-        background-color: green;
-    }
-    }
+       }
 @media screen and (min-width:240px) and (max-width:480px)/*ancho fijo celular*/
 {
     body {
