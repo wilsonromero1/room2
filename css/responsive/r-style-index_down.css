@@ -12,7 +12,9 @@
         color:red;
         background-color:deepskyblue;
 }
-    
+    a.cerrar{
+        font-family: avan;
+    }
 }
 @media screen and (min-width:800px) and (max-width:1280px)/*ancho fijo pc de mesa*/
 {
