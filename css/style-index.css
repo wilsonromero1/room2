@@ -16,15 +16,28 @@
     animation-name: prueba;
     animation-duration: 3s; 
 }
+/*propiedades del formulario*/
+.modal-body {
+    padding: 2px 16px;
+    background-color: grey;
+    height: 400px; /*ancha el formulario */
+    border-radius: 8px 8px 8px 8px;
+    font-family:verdana;
+    color: white;
+    font-size: 12px;
+    
+}
+
 /* boton inisiar session*/
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
         position: absolute;
         top:3px;
         right:40px;
-        padding: 9.5px 10px;
+        padding: 9.5px 0px;
         font-family: avan;
-        font-size: 12px;
+        font-size: 13px;
+        width: 120px;
         color:white;
         background-color: red;
         border: none;
@@ -104,17 +117,7 @@ div.avan
     padding: 0;
     width: 327px; /*ancha el pop up gris*/
 }
-/*propiedades del formulario*/
-.modal-body {
-    padding: 2px 16px;
-    background-color: grey;
-    height: 400px; /*ancha el formulario */
-    border-radius: 8px 8px 8px 8px;
-    font-family:verdana;
-    color: white;
-    font-size: 12px;
-    
-}
+
 
 /*texto del formulario unase en el pricipio del formulario */
 #unase{
@@ -139,7 +142,7 @@ div.avan
     margin-bottom: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top:10px;;
+    margin-top:10px; /* mueve el botonn arriba o abajo */
     background-color:red;
     color:white;
     border:none;
@@ -156,31 +159,7 @@ div.avan
     height:25px;
     
 }
-<<<<<<< HEAD
 
-=======
-button.inisesion{
-        border-radius: 8px 8px 8px 8px;
-        position: absolute;
-        top:3px;
-        right:40px;
-        padding: 9.5px 0px;
-        font-family: avan;
-        font-size: 12px;
-        width: 95px;
-        color:white;
-        background-color: red;
-        border: none;
-        transition: all 0.3s ease;
-        cursor:pointer;
-    
-        }
-button:hover.inisesion {
-    -webkit-transform: scale(0.8); 
-    -ms-transform: scale(0.8); 
-    transform: scale(0.8);
-    } 
->>>>>>> 098db7a826fddb8c84a327999c97630921c8b74b
 #contenido{
     z-index: -1;
 }
