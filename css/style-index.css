@@ -132,7 +132,20 @@ div.avan
     height:25px;
     
 }
-
+button.inisesion{
+        border-radius: 8px 8px 8px 8px;
+        position: absolute;
+        top:3px;
+        right:38px;
+        padding: 9.5px 0px;
+        font-family: avan;
+        font-size: 12px;
+        width: 95px;
+        color:white;
+        background-color: red;
+        border: none;
+        transition: all 0.3s ease;
+        }
 #contenido{
     z-index: -1;
 }
