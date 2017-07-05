@@ -17,26 +17,31 @@
     animation-duration: 3s; 
 }
 /* boton inisiar session*/
+<<<<<<< HEAD
+
+=======
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
         position: absolute;
         top:3px;
         right:40px;
-        padding: 11px 0px;
+        padding: 9.5px 0px;
         font-family: avan;
-        font-size: 14px;
+        font-size: 12px;
         width: 95px;
         color:white;
         background-color: red;
         border: none;
         transition: all 0.3s ease;
         cursor:pointer;
+    
         }
 button:hover.inisesion {
     -webkit-transform: scale(0.8); 
     -ms-transform: scale(0.8); 
     transform: scale(0.8);
-     } 
+    } 
+>>>>>>> 098db7a826fddb8c84a327999c97630921c8b74b
 
 /*bottom cerrar*/
 /* mouse over achicar*/
