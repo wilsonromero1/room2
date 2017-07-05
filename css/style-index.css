@@ -20,12 +20,19 @@
 .modal-body {
     padding: 2px 16px;
     background-color: grey;
-    height: 400px; /*ancha el formulario */
+    height: 400px; /*Esa es la altura */
     border-radius: 8px 8px 8px 8px;
     font-family:verdana;
     color: white;
     font-size: 12px;
     
+}
+/*propiedades del formulario*/
+.contenido-modal{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 327px; /*ancho del formulario*/
 }
 
 /* boton inisiar session*/
@@ -110,13 +117,7 @@ div.avan
       color: #e72127;
       }
 
-/*propiedades del modal-pop-up */
-.contenido-modal{
-    position: relative;
-    margin: auto;
-    padding: 0;
-    width: 327px; /*ancha el pop up gris*/
-}
+
 
 
 /*texto del formulario unase en el pricipio del formulario */
