@@ -102,7 +102,7 @@ div.avan
     position: relative;
     margin: auto;
     padding: 0;
-    width: 327px; /*sube el pop up gris*/
+    width: 327px; /*ancha el formulario*/
      transition: margin 1.2s linear;
     -webkit-transition: margin 1.2s linear; 
     -ms-transition: margin 1.2s linear; 
@@ -112,7 +112,7 @@ div.avan
 .modal-body {
     padding: 2px 16px;
     background-color: grey;
-    height: 400px; /*sube el pop up gris */
+    height: 400px; /*le da el alto al formulario */
     border-radius: 8px 8px 8px 8px;
     font-family:verdana;
     color: white;
