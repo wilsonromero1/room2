@@ -1,5 +1,5 @@
 
-/*propiedades del modal general -nuevo*/
+/*propiedades del modal general. afecta a Bracgraun white, formluario entero, logo y bienvenido */
 .modal{
     transition: all 1.5s;
     position: fixed; /* scroll */
@@ -16,6 +16,11 @@
     animation-name: transicion;
     animation-duration: 3s; 
 }
+/* afecta a Bracgraun white, formluario entero, logo y bienvenido. son las propiedades de trasparente a oscuro */ 
+@keyframes transicion {
+    from {opacity: .001;}/**/
+    to {opacity: .99 ;}/**/
+}  
 /* boton inisiar session*/
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
@@ -84,12 +89,9 @@ div.avan
       text-align: center;
                   }
 
-/* efecto de claro a oscuro ded bienvenido */
 
-@keyframes transicion {
-    from {opacity: .001;}/**/
-    to {opacity: .99 ;}/**/
-}  
+
+
 /*  Propiedad de bienevenido */
 #pro-type{
       font-size: 60.53px;
