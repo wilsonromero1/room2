@@ -11,40 +11,20 @@
     height: 100%; /* transparencia full alto */
     overflow: auto; 
     background-color: rgba(255, 255, 255, 0.8); /* opacidad blanca */
-    -webkit-animation-name: prueba; 
+    -webkit-animation-name: transicion; 
     -webkit-animation-duration: 3s; 
-    animation-name: prueba;
+    animation-name: transicion;
     animation-duration: 3s; 
 }
-/*propiedades del formulario*/
-.modal-body {
-    padding: 2px 16px;
-    background-color: grey;
-    height: 400px; /*Esa es la altura */
-    border-radius: 8px 8px 8px 8px;
-    font-family:verdana;
-    color: white;
-    font-size: 12px;
-    
-}
-/*propiedades del formulario*/
-.contenido-modal{
-    position: relative;
-    margin: auto;
-    padding: 0;
-    width: 327px; /*ancho del formulario*/
-}
-
 /* boton inisiar session*/
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
         position: absolute;
         top:3px;
         right:40px;
-        padding: 9.5px 0px;
+        padding: 9.5px 10px;
         font-family: avan;
-        font-size: 13px;
-        width: 120px;
+        font-size: 12px;
         color:white;
         background-color: red;
         border: none;
@@ -96,14 +76,21 @@ img[src="img/logo.png"]
     -moz-transition: margin 1.2s linear;
      } 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
 /*type avangarden*/
 div.avan
       {
       font-family:avan;
       text-align: center;
                   }
+<<<<<<< HEAD
 /* efecto de claro a oscuro ded bienvenido */
+=======
+
+>>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
 @keyframes transicion {
     from {opacity: .001;}/**/
     to {opacity: .99 ;}/**/
@@ -115,6 +102,28 @@ div.avan
       color: #e72127;
       }
 
+<<<<<<< HEAD
+=======
+/*propiedades del modal-pop-up */
+.contenido-modal{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 327px; /*ancha el pop up gris*/
+}
+/*propiedades del formulario*/
+.modal-body {
+    padding: 2px 16px;
+    background-color: grey;
+    height: 400px; /*ancha el formulario */
+    border-radius: 8px 8px 8px 8px;
+    font-family:verdana;
+    color: white;
+    font-size: 12px;
+    
+}
+
+>>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
 /*texto del formulario unase en el pricipio del formulario */
 #unase{
     top: 8px;
@@ -127,18 +136,27 @@ div.avan
 }
 
 
-@font-face
-{font-family: 'verdana'; src: url('type/verdana.ttf');}
+@font-face{
+    font-family: 'verdana'; 
+    src: url('type/verdana.ttf');}
 
-#fecha{ font-size: 20px; margin-top:10px; }
+#fecha{ 
+    font-size: 20px; 
+    margin-top:10px; }
 
-#terminos{ margin-top:10px; }
-#recibirmail{margin-top:10px;font-size: 15px;text-align: center;}
-#button{display:block; 
+#terminos{ 
+    margin-top:10px; 
+}
+#recibirmail{
+    margin-top:10px;
+    font-size: 15px;
+    text-align: center;}
+#button{
+    display:block; 
     margin-bottom: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top:10px; /* mueve el botonn arriba o abajo */
+    margin-top:10px;;
     background-color:red;
     color:white;
     border:none;
@@ -156,7 +174,7 @@ div.avan
     
 }
 
-
+/*contenido página Down */
 #contenido{
     z-index: -1;
 }
