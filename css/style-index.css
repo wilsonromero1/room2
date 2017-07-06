@@ -1,5 +1,5 @@
 
-/*propiedades del modal general. afecta a Bracgraun white, formluario entero, logo y bienvenido */
+/*propiedades del modal general -nuevo*/
 .modal{
     transition: all 1.5s;
     position: fixed; /* scroll */
@@ -16,11 +16,6 @@
     animation-name: transicion;
     animation-duration: 3s; 
 }
-/* afecta a Bracgraun white, formluario entero, logo y bienvenido. son las propiedades de trasparente a oscuro */ 
-@keyframes transicion {
-    from {opacity: .001;}/**/
-    to {opacity: .99 ;}/**/
-}  
 /* boton inisiar session*/
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
@@ -74,12 +69,7 @@ img[src="img/logo.png"]
     position: relative;
     display:block; 
     margin:auto;
-      
-     transition: margin 1.2s linear;
-    -webkit-transition: margin 1.2s linear; 
-    -ms-transition: margin 1.2s linear; 
-    -moz-transition: margin 1.2s linear;
-     } 
+           } 
 
 
 /*type avangarden*/
@@ -89,9 +79,12 @@ div.avan
       text-align: center;
                   }
 
+/* efecto de claro a oscuro ded bienvenido */
 
-
-
+@keyframes transicion {
+    from {opacity: .001;}/**/
+    to {opacity: .99 ;}/**/
+}  
 /*  Propiedad de bienevenido */
 #pro-type{
       font-size: 60.53px;
@@ -106,6 +99,10 @@ div.avan
     margin: auto;
     padding: 0;
     width: 327px; /*ancha el pop up gris*/
+     transition: margin 1.2s linear;
+    -webkit-transition: margin 1.2s linear; 
+    -ms-transition: margin 1.2s linear; 
+    -moz-transition: margin 1.2s linear;
 }
 /*propiedades del formulario*/
 .modal-body {
