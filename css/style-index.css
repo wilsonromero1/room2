@@ -96,29 +96,24 @@ img[src="img/logo.png"]
     -moz-transition: margin 1.2s linear;
      } 
 
-@keyframes prueba {
-    from {opacity: .001;}
-    to {opacity: 1;}
-}
+
 /*type avangarden*/
 div.avan
       {
       font-family:avan;
       text-align: center;
                   }
-@keyframes prueba {
+/* efecto de claro a oscuro ded bienvenido */
+@keyframes transicion {
     from {opacity: .001;}/**/
     to {opacity: .99 ;}/**/
 }  
-/* Nuevo Propiedad de bienevenido, cambien el nombre del class por pro-type. */
+/*  Propiedad de bienevenido */
 #pro-type{
       font-size: 60.53px;
       font-weight: bold;
       color: #e72127;
       }
-
-
-
 
 /*texto del formulario unase en el pricipio del formulario */
 #unase{
