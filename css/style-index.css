@@ -1,4 +1,4 @@
-
+hola
 /*propiedades del modal general -nuevo*/
 .modal{
     transition: all 1.5s;
@@ -76,21 +76,16 @@ img[src="img/logo.png"]
     -moz-transition: margin 1.2s linear;
      } 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
 /*type avangarden*/
 div.avan
       {
       font-family:avan;
       text-align: center;
                   }
-<<<<<<< HEAD
-/* efecto de claro a oscuro ded bienvenido */
-=======
 
->>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
+/* efecto de claro a oscuro ded bienvenido */
+
 @keyframes transicion {
     from {opacity: .001;}/**/
     to {opacity: .99 ;}/**/
@@ -102,8 +97,7 @@ div.avan
       color: #e72127;
       }
 
-<<<<<<< HEAD
-=======
+
 /*propiedades del modal-pop-up */
 .contenido-modal{
     position: relative;
@@ -123,7 +117,7 @@ div.avan
     
 }
 
->>>>>>> 6251ea1db2a01d6b50e66e043e69d1308934aec3
+
 /*texto del formulario unase en el pricipio del formulario */
 #unase{
     top: 8px;
