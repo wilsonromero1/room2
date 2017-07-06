@@ -4,7 +4,7 @@
     transition: all 1.5s;
     position: fixed; /* scroll */
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 100px; /*mueve el logo, bienvenido y formulario*/
     left: 0;
     top: 0;
     width: 100%; /*trnasparencia full ancho */
