@@ -97,7 +97,7 @@ div.avan
       }
 
 
-/*propiedades del modal-pop-up */
+/*damos el ancho general al div que contiene el logo y bienvenido y al div del formulario*/
 .contenido-modal{
     position: relative;
     margin: auto;
@@ -108,11 +108,11 @@ div.avan
     -ms-transition: margin 1.2s linear; 
     -moz-transition: margin 1.2s linear;
 }
-/*propiedades del formulario*/
+/*propiedades del formulario */
 .modal-body {
     padding: 2px 16px;
     background-color: grey;
-    height: 400px; /*ancha el formulario */
+    height: 400px; /*sube el pop up gris */
     border-radius: 8px 8px 8px 8px;
     font-family:verdana;
     color: white;
@@ -128,7 +128,6 @@ div.avan
     color:white;
     font-weight: bold;
     font-size: 20.3px;
-    font-family:verdana;
     margin-right: 0px;/**/
 }
 
