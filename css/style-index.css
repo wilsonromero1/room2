@@ -98,9 +98,7 @@ div.avan
 /*damos el ancho general al div que contiene el logo y bienvenido y al div del formulario*/
 .contenido-modal{
     position: relative;
-    top: 100;
     margin: auto;
-    top: 0;
     padding: 0;
     width: 327px; /*ancha el formulario*/
      transition: margin 1.2s linear;
