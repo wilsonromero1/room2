@@ -68,31 +68,6 @@ a:hover.cerrar {
     transform: scale(0.8);
      } 
 
-/*a relativo al background*/
-
-/*logo*/
-img[src="img/logo.png"]
-    {
-    position: relative;
-    display:block; 
-    margin:auto;
-           } 
-
-
-/*type avangarden*/
-.bienvenido
-      {
-      font-family:avan;
-      text-align: center;
-          font-size: 60.53px;
-      font-weight: bold;
-      color: #e72127;
-                  }
-
-/* efecto de claro a oscuro ded bienvenido */
-/*  Propiedad de bienevenido */
-
-
 
 /*damos el ancho general al div que contiene el logo y bienvenido y al div del formulario*/
 .contenido-modal{
@@ -116,8 +91,40 @@ img[src="img/logo.png"]
     font-size: 12px;
     
 }
+/*logo*/
+img[src="img/logo.png"]
+    {
+    position: relative;
+    display:block; 
+    margin:auto;
+           } 
+/* llama la type verdana para todo el texto en el formulario*/
+
+@font-face{
+    font-family: 'verdana'; 
+    src: url('../type/verdana.ttf');}
+/*type avangarden*/
+.bienvenido
+      {
+      font-family:avan;
+      text-align: center;
+          font-size: 60.53px;
+      font-weight: bold;
+      color: #e72127;
+                  }
+
+/* efecto de claro a oscuro ded bienvenido */
+/*  Propiedad de bienevenido */
 
 
+
+
+/* llama la type Avangarden para todo el texto en el formulario*/
+@font-face
+		{
+ 		font-family: 'avan';
+ 		src: url('../type/avan.otf');
+        }
 /*texto del formulario unase en el pricipio del formulario */
 #unase{
     top: 8px;
@@ -129,15 +136,9 @@ img[src="img/logo.png"]
 }
 
 
-@font-face{
-    font-family: 'verdana'; 
-    src: url('../type/verdana.ttf');}
 
-@font-face
-		{
- 		font-family: 'avan';
- 		src: url('../type/avan.otf');
-        }
+
+
         
 #fecha{ 
     font-size: 20px; 
