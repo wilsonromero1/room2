@@ -82,7 +82,7 @@ a:hover.cerrar {
 }
 /*propiedades del formulario */
 .modal-body {
-    padding: 2px 16px;
+    padding: 2px 16px; /* padding del texto del formulario derecha y izquierda */
     background-color: grey;
     height: 400px; /*le da el alto al formulario */
     border-radius: 8px 8px 8px 8px;
