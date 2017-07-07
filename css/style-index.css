@@ -131,8 +131,14 @@ img[src="img/logo.png"]
 
 @font-face{
     font-family: 'verdana'; 
-    src: url('type/verdana.ttf');}
+    src: url('../type/verdana.ttf');}
 
+@font-face
+		{
+ 		font-family: 'avan';
+ 		src: url('../type/avan.otf');
+        }
+        
 #fecha{ 
     font-size: 20px; 
     margin-top:10px; }
