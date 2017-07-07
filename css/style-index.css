@@ -134,7 +134,16 @@ img[src="img/logo.png"]
     font-size: 22.5px;
     margin-right: 0px;/**/
 }
-        
+ 
+/*medidas input del formulario */
+.caja
+{
+   margin-top:11px;
+    width:290px;
+    height:25px;
+    
+}
+
 #fecha{ 
     font-size: 20px; 
     margin-top:10px; }
@@ -160,14 +169,6 @@ img[src="img/logo.png"]
     padding: 10px 24px;
     border-radius: 5px 5px 5px 5px;}
 
-/*nuevo-medidas input del formulario */
-.caja
-{
-   margin-top:10px;
-    width:290px;
-    height:25px;
-    
-}
 
 /*contenido página Down */
 #contenido{
