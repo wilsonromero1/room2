@@ -80,19 +80,18 @@ img[src="img/logo.png"]
 
 
 /*type avangarden*/
-div.avan
+.avan
       {
       font-family:avan;
       text-align: center;
+          font-size: 60.53px;
+      font-weight: bold;
+      color: #e72127;
                   }
 
 /* efecto de claro a oscuro ded bienvenido */
 /*  Propiedad de bienevenido */
-#pro-type{
-      font-size: 60.53px;
-      font-weight: bold;
-      color: #e72127;
-      }
+
 
 
 /*damos el ancho general al div que contiene el logo y bienvenido y al div del formulario*/
