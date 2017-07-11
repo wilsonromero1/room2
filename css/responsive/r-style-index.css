@@ -1,7 +1,8 @@
 @media screen and (min-width:320px)and (max-width:720px) /*ancho fijo celular*/
 {
-  
-    a.cerrar{
+  #mimodal{
+    padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
+    }    a.cerrar{
         padding-bottom: 0px;
         padding-top: 0px;
         font-size: 25px;
