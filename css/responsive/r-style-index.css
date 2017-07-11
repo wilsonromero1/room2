@@ -1,6 +1,11 @@
 @media screen and (min-width:320px)and (max-width:720px) /*ancho fijo celular*/
 {
-   button.inisesion{
+   #mimodal{
+        
+    z-index: 1;
+       padding-top: 60px; /*mueve el logo, bienvenido y formulario*/}
+    
+    button.inisesion{
        
         top:3px;
         right:40px;
