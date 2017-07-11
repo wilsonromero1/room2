@@ -1,4 +1,4 @@
-@media screen and (min-width:720px) /*ancho fijo celular*/
+@media screen and (min-width:400px) and (max-width:1919px)/*ancho fijo celular*/
 {
     body {
         color: black;
