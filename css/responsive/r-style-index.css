@@ -4,12 +4,12 @@
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }    a.cerrar{
         padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 4px;
         font-size: 25px;
         font-weight: 600;
     } 
     button.inisesion{
-       padding-top: 0px;
+       padding-top: 4px;
         padding-bottom: 0px;/* espacio del lado del 
         boton */
         text-align: center;
