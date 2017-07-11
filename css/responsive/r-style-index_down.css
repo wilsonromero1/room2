@@ -1,4 +1,4 @@
-@media screen and (min-width:480px) and (max-width:720px)/*ancho fijo celular*/
+@media screen and (min-width:320px) and (max-width:720px)/*ancho fijo celular*/
 {
     body {
         color: white;
