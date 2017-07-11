@@ -1,9 +1,7 @@
-
-@media screen and (min-width:1920px) and (max-width:7680px)/*ancho fijo pantalla grande*/
+@media screen and (min-width:240px) and (max-width:480px)/*ancho fijo celular*/
 {
-   
+    
 }
-
 @media screen and (min-width:1280px) and (max-width:1920px)/*ancho fijo portatil*/
 {
     
@@ -12,11 +10,14 @@
 {
    
 }
+@media screen and (min-width:1920px) and (max-width:7680px)/*ancho fijo pantalla grande*/
+{
+   
+}
+
+
+
 @media screen and (min-width:480px) and (max-width:800px)/*ancho fijo tablet*/
 {
    
     }
-@media screen and (min-width:240px) and (max-width:480px)/*ancho fijo celular*/
-{
-    
-}
