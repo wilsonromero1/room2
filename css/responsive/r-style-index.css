@@ -1,32 +1,28 @@
 @media screen and (min-width:320px)and (max-width:720px) /*ancho fijo celular*/
 {
-  #mimodal{
+    #mimodal
+    {
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }   
-    
-                }
-.contenido-modal{
-    
+    .contenido-modal
+    {
     width: 327px; /*ancha el formulario*/
-     
-}
-/*propiedades del formulario */
-.modal-body {
-    
+    }    
+    /*propiedades del formulario */
+    .modal-body 
+    {
     height: 400px; /*le da el alto al formulario */
-    
-    
-}
+    }
  
 }
 @media screen and (min-width:721px) and (max-width:1600px)/*ancho fijo portatil*/
-
 {
     
-}
+    
+}   
 
 
 @media screen and (min-width:1601px) and (max-width:1920px)/*ancho fijo pc de mesa*/
 {
    
-    }
+}
