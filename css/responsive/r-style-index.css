@@ -2,21 +2,8 @@
 {
   #mimodal{
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
-    }    a.cerrar{
-        margin-top: 6px;
-        padding-bottom: 0px;
-        padding-top: 8px;
-        font-size: 20px;
-        font-weight: 600;
-    } 
-    button.inisesion{
-        margin-top: 6px;
-       padding-top: 8px;
-        padding-bottom: 6px;/* espacio del lado del 
-        boton */
-        text-align: center;
-        font-size: 12px;
-        margin-right: 5px;
+    }   
+    
                 }
 .contenido-modal{
     
@@ -32,13 +19,14 @@
 }
  
 }
-@media screen and (min-width:721px) and (max-width:1080px)/*ancho fijo portatil*/
+@media screen and (min-width:721px) and (max-width:1600px)/*ancho fijo portatil*/
+
 {
     
 }
 
 
-@media screen and (min-width:1081px) and (max-width:1920px)/*ancho fijo tablet*/
+@media screen and (min-width:1601px) and (max-width:1920px)/*ancho fijo pc de mesa*/
 {
    
     }
