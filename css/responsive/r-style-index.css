@@ -4,6 +4,8 @@
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }   
     button.inisesion{
+        display:table-cell;
+        vertical-align:middle;
         top:1%;
         right:11%;
         padding-top:0%;
@@ -12,6 +14,8 @@
         padding-right: 0%
                 }
    a.cerrar{
+       display:table-cell;
+       vertical-align:middle;
        top:1%;
        padding: 2% 2%;
        font-size: 12px;
