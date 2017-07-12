@@ -7,13 +7,12 @@
     button.inisesion
     {
        
-        margin-bottom: auto;
+        margin-bottom: 50;
         margin-right: auto;
         margin-left: auto;
     }
     a.cerrar{
-        height: 20px;
-        line-height: 25px;
+       
     }
     .contenido-modal
     {
