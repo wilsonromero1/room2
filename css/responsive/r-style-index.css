@@ -4,17 +4,21 @@
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }   
     button.inisesion{
-        position: absolute;
         top:1%;
         right:11%;
-        padding: 2% 2% ;
-      
-        }
+        padding-top:0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%
+                }
    a.cerrar{
-  top:1%;
-  padding: 1.6% 3%;
-       font-size: 18px;
-       font-weight: 600;
+       top:1%;
+       padding: 2% 2%;
+       font-size: 12px;
+       padding-top:0%;
+       padding-bottom: 0%;
+       padding-left: 0%;
+       padding-right: 0%
     /* relativo al :hover del buttom X  */
  }
                 }
