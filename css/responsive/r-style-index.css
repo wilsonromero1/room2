@@ -7,16 +7,15 @@
     button.inisesion
     {
     top: 3px;
-    padding: 10px 30px 50px 50px; /*espacio entre arriba y lado */
+    padding: none; /*espacio entre arriba y lado */
     }
     .contenido-modal
     {
     width: 327px; /*ancha el formulario*/
     }    
-    /*propiedades del formulario */
     .modal-body 
     {
-    height: 400px; /*le da el alto al formulario */
+    height: 300px; /*le da el alto al formulario */
     }
  
 }
