@@ -6,7 +6,8 @@
     }   
     button.inisesion
     {
-    top: 7px;  
+    top: 7px;
+    padding: 10px 5px ; /*espacio entre arriba y lado */
     }
     .contenido-modal
     {
