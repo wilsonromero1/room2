@@ -17,10 +17,9 @@
     {
     width: 327px; /*ancha el formulario*/
     }    
-    /*propiedades del formulario */
     .modal-body 
     {
-    height: 400px; /*le da el alto al formulario */
+    height: 300px; /*le da el alto al formulario */
     }
  
 }
