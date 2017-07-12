@@ -6,8 +6,12 @@
     }   
     button.inisesion
     {
-    top: 3px;
-    padding: 10px 30px 50px 50px; /*espacio entre arriba y lado */
+        height: 34px;
+        line-height: 22px;/*espacio entre arriba y lado */
+    }
+    a.cerrar{
+        height: 20px;
+        line-height: 25px;
     }
     .contenido-modal
     {
