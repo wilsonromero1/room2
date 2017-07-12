@@ -4,6 +4,10 @@
     {
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }   
+    button.inisesion
+    {
+    top: 7px;  
+    }
     .contenido-modal
     {
     width: 327px; /*ancha el formulario*/
