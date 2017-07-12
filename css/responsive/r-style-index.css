@@ -4,8 +4,41 @@
     {
     padding-top: 50px; /*mueve el logo, bienvenido y formulario*/
     }   
+<<<<<<< HEAD
     .contenido-modal
     {
+=======
+    button.inisesion{
+        display:table-cell;
+        vertical-align:middle;
+        top:1%;
+        right:11%;
+        padding-top:1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        color:black;
+        text-align: center;
+                }
+   a.cerrar{
+       display:table-cell;
+       vertical-align:middle;
+       top:1%;
+       padding: 2% 2%;
+       font-size: 12px;
+       padding-top:1%;
+       padding-bottom: 1%;
+       padding-left: 1%;
+       padding-right: 1%;
+    color:black;
+       text-align: center;
+            
+    /* relativo al :hover del buttom X  */
+ }
+                }
+.contenido-modal{
+    
+>>>>>>> f114f3342f761792ef0199207138d317087611f9
     width: 327px; /*ancha el formulario*/
     }    
     /*propiedades del formulario */
