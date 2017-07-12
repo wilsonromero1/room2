@@ -6,8 +6,10 @@
     }   
     button.inisesion
     {
-        height: 34px;
-        line-height: 22px;/*espacio entre arriba y lado */
+       
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
     }
     a.cerrar{
         height: 20px;
