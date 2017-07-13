@@ -15,11 +15,11 @@
     }
     .contenido-modal
     {
-    width: 720px; /*ancha el formulario*/
+    width: 300px; /*ancha el formulario*/
     }    
     .modal-body 
     {
-    height: 883px; /*le da el alto al formulario */
+    height: 700px; /*le da el alto al formulario */
     }
  
 }
