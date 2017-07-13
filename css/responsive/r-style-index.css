@@ -6,21 +6,19 @@
     }   
     button.inisesion
     {
-       
-        margin-bottom: 50;
-        margin-right: auto;
-        margin-left: auto;
+     top: 4px;
+     padding: 11px 10px 8px;   
     }
     a.cerrar{
        
     }
     .contenido-modal
     {
-    width: 327px; /*ancha el formulario*/
+    width: 720px; /*ancha el formulario*/
     }    
     .modal-body 
     {
-    height: 300px; /*le da el alto al formulario */
+    height: 883px; /*le da el alto al formulario */
     }
  
 }
