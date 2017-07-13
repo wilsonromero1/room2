@@ -10,8 +10,7 @@
      padding: 11px 10px 8px;   
     }
     a.cerrar{
-       top: 4px;
-     padding: 8px 10px 5px;
+      text-align: justify;
     }
     .contenido-modal
     {
