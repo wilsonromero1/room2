@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style-index.css">
-<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> ESPERIMENTO --> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/style-index_down.css">
 <!-- index -->    
@@ -17,7 +17,7 @@
 </head>
     
     
-<body >
+<body > 
 
 <div id="mimodal"><!--id mi modal se conecta con el script para cerar el modal con la X-->
    
