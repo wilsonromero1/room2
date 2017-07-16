@@ -12,6 +12,7 @@
         right: 70px;
     }
     a.cerrar{
+        text-align: center;
     display:block; 
     margin-bottom: auto;
     margin-right: auto;
@@ -28,11 +29,11 @@
     }
     .contenido-modal
     {
-    width: 686px; /*ancha el formulario*/
+    width: 320px; /*ancha el formulario*/
     }    
     .modal-body 
     {
-    height: 600px; /*le da el alto al formulario */
+    height: px; /*le da el alto al formulario */
     }
  
 }
