@@ -6,25 +6,15 @@
     }   
     button.inisesion
     {
-     top: 4px;
-     padding: 11px 10px 8px;
-     background-color: blue;
-        right: 70px;
+    padding-bottom: none;
+        padding-left: none;
+        padding-right: none;
+        padding-top: 10px;
+        
     }
     a.cerrar{
-    text-align: center;
-    display:block; 
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top:1px;
-    background-color:red;
-    color:white;
-    border:none;
-    font-size: 15px;
-    cursor:pointer;
-    padding: 10px 24px;
-    border-radius: 5px 5px 5px 5px;}
+    text-align: -webkit-center;
+    
 
     }
     .contenido-modal
