@@ -8,12 +8,28 @@
     {
      top: 4px;
      padding: 11px 10px 8px;
-     background-color: rebeccapurple;
+     background-color: blue;
         right: 70px;
     }
-        .contenido-modal
+    a.cerrar{
+    text-align: center;
+    display:block; 
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1px;
+    background-color:red;
+    color:white;
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    padding: 10px 24px;
+    border-radius: 5px 5px 5px 5px;}
+
+    }
+    .contenido-modal
     {
-    width: 420px; /*ancha el formulario*/
+    width: 320px; /*ancha el formulario*/
     }    
     .modal-body 
     {
