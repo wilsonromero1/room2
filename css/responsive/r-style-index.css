@@ -8,7 +8,7 @@
     {
      top: 4px;
      padding: 11px 10px 8px;
-     background-color: blue;
+     background-color: azure;
         right: 70px;
     }
     a.cerrar{
@@ -18,7 +18,7 @@
     }
     .contenido-modal
     {
-    width: 320px; /*ancha el formulario*/
+    width: 420px; /*ancha el formulario*/
     }    
     .modal-body 
     {
