@@ -8,15 +8,10 @@
     {
      top: 4px;
      padding: 11px 10px 8px;
-     background-color: azure;
+     background-color: rebeccapurple;
         right: 70px;
     }
-    a.cerrar{
-    align-items: center;
-    
-
-    }
-    .contenido-modal
+        .contenido-modal
     {
     width: 420px; /*ancha el formulario*/
     }    
