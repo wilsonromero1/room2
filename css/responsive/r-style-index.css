@@ -6,15 +6,36 @@
     }   
     button.inisesion
     {
-    padding-bottom: none;
-        padding-left: none;
-        padding-right: none;
-        padding-top: 10px;
+    border-radius: 8px 8px 8px 8px;
+        position: absolute;
+        top:3px;
+        right:40px;
+        padding: 10px 10px ;
+        font-family: avan;
+        font-size: 12px;
+        color:white;
+        background-color: red;
+        border: none;
+        transition: all 0.3s ease;
+        cursor:pointer;
+
         
     }
     a.cerrar{
-    text-align: -webkit-center;
-    
+    border-radius: 8px 8px 8px 8px;
+   position: absolute;
+   top:3px;
+   font-family: avan;
+   font-weight: 600;
+   right:3px;
+   background-color: red;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+   transition: all 0.3s ease;
+      
 
     }
     .contenido-modal
