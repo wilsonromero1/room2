@@ -22,20 +22,18 @@
         
     }
     a.cerrar{
-    border-radius: 8px 8px 8px 8px;
-   position: absolute;
-   top:3px;
-   font-family: avan;
-   font-weight: 600;
-   right:3px;
-   background-color: rosybrown;
-   padding:7px 10px;
-   font-size: 20px;
-   text-decoration: none;
-   line-height: 1;
-   color:#fff;
-   transition: all 0.3s ease;
-    align-items:center;
+   display:block; 
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:10px;
+    background-color:red;
+    color:white;
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    padding: 10px 24px;
+    border-radius: 5px 5px 5px 5px;
 
     }
     .contenido-modal
