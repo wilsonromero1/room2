@@ -28,14 +28,14 @@
    font-family: avan;
    font-weight: 600;
    right:3px;
-   background-color: red;
+   background-color: blue;
    padding:7px 10px;
    font-size: 20px;
    text-decoration: none;
    line-height: 1;
    color:#fff;
    transition: all 0.3s ease;
-      
+    align-items:center;
 
     }
     .contenido-modal
