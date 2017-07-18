@@ -20,7 +20,9 @@
 @keyframes transicion {
     from {opacity: .001;}/**/
     to {opacity: .99 ;}/**/
-}  
+} 
+
+
 /* boton inisiar session*/
 button.inisesion{
         border-radius: 8px 8px 8px 8px;
@@ -57,7 +59,7 @@ padding: 10px 10px;
     font-family: avan;
     font-weight: 600;
     font-size: 20px;
-    
+    align-content: center;
     
     
     
