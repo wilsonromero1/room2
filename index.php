@@ -26,7 +26,7 @@
 	X</a> <!-- scrip que borra el modal en la X -->	
     
     
-    <button class="inisesion">Iniciar Sesion</button><!--boton de inisio de sesion nuevo-->
+    <button class="inisesion">Iniciar SesionX</button><!--boton de inisio de sesion nuevo-->
 		 
       
 	    
