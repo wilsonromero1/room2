@@ -43,11 +43,11 @@
         <div  id="unase"> ¡Únase en forma gratuita!
 		</div>
     <!-- aqui elimine el estilo del input y lo mande al css-coloque la clase input-->
-    <form   method="get">
-	 <input class="caja" placeholder="Escribe tu Usuario" type="text" name="contraseña">
-	 <input class="caja" placeholder="Escribe tu Contraseña"  type="password" name="contraseña">
-	 <input class="caja" placeholder="Confirma tu Contraseña"  type="password" name="tusuario">
-	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="tusuario">
+    <form  action="" method="POST">
+	 <input class="caja" placeholder="Escribe tu Usuario" type="text" name="name">
+	 <input class="caja" placeholder="Escribe tu Contraseña"  type="password" name="pass">
+	 <input class="caja" placeholder="Confirma tu Contraseña"  type="password" name="rpass">
+	<input class="caja" placeholder="Escribe tu Correo Electronico"  type="text" name="email">
         <!--Fecha de nacimiento -->
 		
         <div id="fecha" ><a>Fecha de nacimiento:</a></div><!--nuevo -->
