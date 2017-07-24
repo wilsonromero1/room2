@@ -122,7 +122,7 @@
 	<!-- texto terminos-->
 		<div id="terminos"> 
 		Haciendo clic en Registrarse, estás indicando que has leído y que aceptas los
-		<a href="terminos.html"> 
+		<a href="terminos.php"> 
 		Términos de servicio. y las políticas de privacidad
 		</a></div>
 	<!-- recibiras un email-->
