@@ -131,7 +131,7 @@
         
 	<!--botton registrase-->
 		
-		<button id="button">Registarte</button>
+		<button type="submit" id="button">Registarte</button>
 		
         </form>
    
