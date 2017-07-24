@@ -10,7 +10,7 @@
     
     
 <body>
-
+<!-- menu cabezera -->
     <?php
         include 'cabezera.php' ;
     ?>
